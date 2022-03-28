@@ -1,4 +1,5 @@
 import Expenses from "./components/Expenses/Expenses";
+import BirthdayCountDown from "./components/ForBirthday/BirthdayCountDown";
 
 function App() {
   const expenses = [
@@ -15,7 +16,7 @@ function App() {
       date: new Date(2021, 3, 28)
     },
     {
-      id: 'e3',
+      id: 'e3', 
       title: 'Egg',
       amount: 12.21,
       date: new Date(2020, 5, 23)
@@ -26,12 +27,13 @@ function App() {
       amount: 123.43,
       date: new Date(2020, 7, 19)
     },
-
   ]
+
+  //<h2>Let's get started!</h2>
+  //<Expenses items={expenses}/>
   return (
     <div>
-      <h2>Let's get started!</h2>
-      <Expenses items={expenses}/>
+      <BirthdayCountDown/>      
     </div>
   );
 }

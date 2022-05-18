@@ -27,5 +27,5 @@ function Counter(props){
     </div>
   );
 }
-
+// deneme satırı
 export default Counter;

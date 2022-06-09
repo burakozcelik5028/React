@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "formulahendry.auto-rename-tag",
+        "dbaeumer.vscode-eslint",
+        "file-icons.file-icons",
+        "waderyan.gitblame",
+        "teledemic.branch-warnings",
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        "davidanson.vscode-markdownlint",
+        "pkief.material-icon-theme",
+        "eg2.vscode-npm-script",
+        "esbenp.prettier-vscode",
+        "wayou.vscode-todo-highlight"
+    ]
+}

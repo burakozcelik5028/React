@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
+import {getUser} from '../Redux/Actions/index'
 import Counter from './components/Counter';
 
 function App() {
+  const users = useSelector(state => state.users);
   //const isLogin = useSelector(state => state.isLogin);
   const [counterPageFlag, setCounterPageFlag] = useState(false);
 

@@ -16,3 +16,9 @@ export const makeZero = () => {
         type: 'MAKE_ZERO'
     }
 }
+
+export const getUser = () => {
+    return {
+        type: 'GET_USER_REQUESTED',
+    }
+}

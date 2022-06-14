@@ -1,7 +1,7 @@
 export default function denemelik(){
     return (
-        <div className="denemelik"
-        >
+        <div className="denemelik">
             Buraaaaaaaaaaaaak
         </div>)
 }
+  

@@ -1,0 +1,48 @@
+const DUMMY_EVENTS = [
+  {
+    id: "e1",
+    title: "MOON",
+    description: "you are the moon that not aware of the dawn.",
+    location: "izmir",
+    date: " 2022-06-15",
+    image: "images/moon.jpg",
+    isFeatured: false,
+  },
+  {
+    id: "e2",
+    title: "LAKE",
+    description: "Ducklings swim in this cute lake.",
+    location: "izmir",
+    date: " 2022-06-15",
+    image: "images/lake.jpg",
+    isFeatured: true,
+  },
+  {
+    id: "e3",
+    title: "MOUNTAIN",
+    description: "This mountain is a home for a lot of goats.",
+    location: "izmir",
+    date: " 2022-06-15",
+    image: "images/mountain.jpg",
+    isFeatured: false,
+  },
+  {
+    id: "e4",
+    title: "SUN",
+    description: "Sun is a postman of dawn. Konichiwa for Sun God Nika!",
+    location: "izmir",
+    date: " 2022-06-15",
+    image: "images/sun.jpg",
+    isFeatured: true,
+  },
+  {
+    id: "e5",
+    title: "Duck",
+    description:
+      "Ducklings love the lakes and puddles. My favorite duck is Duffy Duck.",
+    location: "izmir",
+    date: " 2022-06-15",
+    image: "images/duck.jpg",
+    isFeatured: false,
+  },
+];

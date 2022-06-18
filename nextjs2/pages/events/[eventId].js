@@ -26,7 +26,7 @@ function EventDetailPage() {
         image={event.image}
       ></EventLogistic>
       <EventContent>
-        <p>{event.descriptions}</p>
+        <p>{event.description}</p>
       </EventContent>
     </Fragment>
   );

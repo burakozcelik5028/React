@@ -17,6 +17,7 @@ function EventDetailPage() {
       </div>
     );
   }
+
   return (
     <Fragment>
       <EventSummary title={event.title}></EventSummary>

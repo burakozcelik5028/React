@@ -25,4 +25,11 @@ export async function getStaticProps(context) {
   return { props: { loadedProduct: product } };
 }
 
+export async function getStaticPaths(pid) {
+  return {
+    paths: [], //indicates that no page needs be created at build time
+    fallback: "blocking", //indicates the type of fallback
+  };
+}
+
 export default ProductDetailPage;

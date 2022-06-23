@@ -53,7 +53,7 @@ export async function getStaticPaths(pid) {
 
   return {
     paths: pathWithParams, //indicates that no page needs be created at build time
-    fallback: false, //indicates the type of fallback you can put "blocking" as a value than you dont need to check !loadedProduct for Loading
+    fallback: true, //indicates the type of fallback you can put "blocking" as a value than you dont need to check !loadedProduct for Loading
   };
 }
 

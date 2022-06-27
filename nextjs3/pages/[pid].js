@@ -6,7 +6,7 @@ function ProductDetailPage(props) {
   const { loadedProduct } = props;
 
   if (!loadedProduct) {
-    //if me make fallback: "blocking" in getStaticPaths, we don't need this control here.
+    //if I make fallback: "blocking" in getStaticPaths, we don't need this control here.
     return (
       <Fragment>
         <h1>Loading...</h1>
@@ -33,12 +33,14 @@ async function getData() {
 export async function getStaticProps(context) {
   const { params } = context;
   const productID = params.pid;
+  console.log("Server Side Codeeeee ");
 
   const data = await getData();
   const product = data.products.find((product) => product.id === productID);
 
   if (!product) {
-    //if the fallback: true in getStaticPaths, it will get error if there is no data. than we should use this control
+    // if the fallback: true in getStaticPaths,
+    // it will get error if there is no data. than we should use this control
     return { notFound: true };
   }
 
